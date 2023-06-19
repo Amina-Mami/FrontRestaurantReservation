@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: beige;
+}
+footer{
+  
+
+
+  grid-column: 1 / span 12;
+  display: flex;
+  
+ 
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+ 
+  min-height: 80px;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  flex-wrap: wrap;
+  box-shadow: var(--box-shadow-3);
+  
+  
+}
+.FooterSocial{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  color: yellow;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.FooterContact{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  color: yellow;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+.Footerimg{
+  margin-top: 50px;
+}
+
+.logo {
+  width: 200px;
+  
+}
+.logoo{
+  width: 450px;
+}
+.secone{
+  background-color: #282c34;
+  color:white;
+  width: 100%;
+  height: 300px;
+  
+}
+.move{
+  margin-left: 30px;
+  padding: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5em;
+}
+.movee{
+ 
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 60px;
+  font-size: 1em;
+}
+
+
+h1 {
+  font-size: 24px !important;
+  display: inline-block !important;
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.rest{
+  
+ height: 500px;
+ margin-top: 0;
+ margin-right: 70px;
+
+ float: right;
+}
+.btn{
+  background-color: yellow;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 60px;;
+}
+
+.hover-effect{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+ 
+}
+
+
+
+p{
+  display:flex;
+  color:white;
+}
+
+p>span{
+  color:white;
+}
+
+
+
+.li{
+  float:left;
+  
+  margin-right: 80px;
+  
+}
+.li> a{
+  margin-top: 10px;
+  display:block;
+  color:rgb(10, 10, 10);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.li> a:hover{
+  background-color: yellow;
+  
+}
+
+img{
+  border-radius: 14px;
+}
+
+.linking{
+ background-color: bisque;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.footer-header {
+  margin-bottom: -1.25rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.footer-links > a,
+.footer-links > Link,
+.footer-links > li {
+  text-align: left;
+  display: block;
+  color: white;
+  padding-top: 0.2rem;
+  font-family: "Karla", "Sans Serif";
+}
+
+.footer-links > a:hover,
+.footer-links > Link:hover {
+  background-color: #495e57;
+  text-decoration: underline;
+}
+
+.img-footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+}
+
+.img-footer > img {
+  max-height: 8rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-right: 3rem;
+
+  background-color: white;
+  padding: 0.5rem;
+}
+
+/* RESERVE A TABLE */
+.reserve-table {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: -1.4rem;
+  overflow: hidden;
+}
+
+.header-reserve {
+  width: 100vw; /* width of container */
+  height: 20rem; /* height of container */
+  object-fit: cover;
+}
+
+.reserve-header-text {
+  background-color: #495e57;
+  padding: 0 3rem 0 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  border-radius: 0.5rem;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
