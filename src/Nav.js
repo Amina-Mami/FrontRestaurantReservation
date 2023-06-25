@@ -4,6 +4,9 @@ import BookingForm from './components/BookingForm';
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import { Router } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import { Routes } from 'react-router-dom';
 
 
 
@@ -15,32 +18,34 @@ return (
   <ul className="hover-effect">
      <li className="li"><img src={require("./Logo.png")} className='logo' alt="logo"></img></li>
       <li className='li'>
-      <Link to={App}> Home</Link>
+      <NavLink to="/"> Home</NavLink>
      </li>
       <li className="li">
-        <Link to='/App'> About</Link>
+       
+        <NavLink to='/About'> About</NavLink>
+
         </li>
 
         <li className="li">
-        <Link to="/App"> Menu</Link>
+        <NavLink to='/Menu'> Menu</NavLink>
         </li>
 
         <li className="li">
-        <Link to='/components/BookingForm'> BookingForm</Link>
+        <NavLink to='/BookingForm'> BookingForm</NavLink>
+
         </li>
 <li className="li">
-        <Link to="/App"> Order Online</Link>
+        <NavLink to="/Order"> Order Online</NavLink>
         </li>
 
         <li className="li">
-        <Link to="/App"> Login</Link>
+        <NavLink to="/Login"> Login</NavLink>
         </li>
         
     </ul>
             </nav>
-   
-            
-
+  
+          
 
 )
 }
