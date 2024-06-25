@@ -1,44 +1,37 @@
-import { Link } from 'react-router-dom';
-import './App.css';
+import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
-import React from 'react'
 function Footer() {
   return (
-    <footer>
-      <section className='Footerimg'>
-       <img
-            src={require("./Logo.png")}
-            alt="logo"
-            className='logoo'
-          ></img>
-        
-        </section>
-      
-<section className='FooterContact'>
-       
-          <h1>Contact Us</h1>
-          <article>
-            <p>125f,vrbgb,gvrg</p>
-            <p>02451484547855</p>
-            <p>contac@littlelemon.com</p>
-          </article>
-          </section>
-
-          <section className='FooterSocial'>
-            <h1>Social Media</h1>
-          <article>
-            <p><a href="faceboo.com">Facebook</a></p>
-            <p><a href="instagram.com">Instagram</a></p>
-            <p><a href='twitter.com'>Twitter</a></p>
-         
-          </article>
-          </section>
-          
-      
+    <footer className="footer">
+      <div className="footer-logo">
+        <img src={require("./Logo.png")} alt="Little Lemon logo" />
+      </div>
+      <div className="footer-section footer-contact">
+        <h1>Contact Us</h1>
+        <p>Hosary Mosque, 6 October, Tunisia</p>
+        <p>123456789</p>
+        <p>contact@littlelemon.com</p>
+      </div>
+      <div className="footer-section footer-social">
+        <h1>Social Media</h1>
+        <a href="https://facebook.com">
+          <FontAwesomeIcon icon={faFacebookF} /> Facebook
+        </a>
+        <a href="https://instagram.com">
+          <FontAwesomeIcon icon={faInstagram} /> Instagram
+        </a>
+        <a href="https://twitter.com">
+          <FontAwesomeIcon icon={faTwitter} /> Twitter
+        </a>
+      </div>
     </footer>
-
-
-
   );
 }
+
 export default Footer;

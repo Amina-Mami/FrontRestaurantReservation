@@ -1,172 +1,108 @@
 .App {
   text-align: center;
 }
-body{
+body {
   background-color: beige;
-}
-footer{
-  
-
-
-  grid-column: 1 / span 12;
-  display: flex;
-  
- 
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
- 
-  min-height: 80px;
-  width: 100%;
-  height: 100%;
-  background-color: gray;
-  flex-wrap: wrap;
-  box-shadow: var(--box-shadow-3);
-  
-  
-}
-.FooterSocial{
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  color: yellow;
-  margin-right: 80px;
-  margin-top: 30px;
-}
-
-.FooterContact{
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  color: yellow;
-  margin-right: 80px;
-  margin-top: 30px;
-}
-.Footerimg{
-  margin-top: 50px;
 }
 
 .logo {
   width: 200px;
-  
 }
-.logoo{
+.logoo {
   width: 450px;
 }
-.secone{
+.secone {
   background-color: #282c34;
-  color:white;
+  color: white;
   width: 100%;
   height: 400px;
-  
 }
-.move{
+.move {
   margin-left: 70px;
   padding: 20px;
   font-family: "Times New Roman", Times, serif;
-  color: yellow;
+  color: #f4ce14;
   display: inline-block !important;
   text-align: justify;
- 
- 
 }
-.movee{
- 
+.movee {
   font-family: "Times New Roman", Times, serif;
   margin-left: 90px;
   font-size: 1.5em;
   text-align: justify;
-  
 }
-.btn{
-
-  width: 200px;
+.btn {
+  width: 160px;
   height: 50px;
-  border-radius: 15px;
+  border-radius: 30px;
   border: none;
-  background-color: #f4ce14;
-  font-weight: 900;
+  background-color: #f4ce14 !important;
+  font-weight: 700;
   cursor: pointer;
   margin-top: 20px;
   margin-left: 90px;
-
-
 }
 
-
-
-
-
+.btn > a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #2f2f2f;
+}
 
 /* h1 {
   font-size: 24px !important;
   display: inline-block !important;
   }
 */
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-
-
-.rest{
+.rest {
   margin-top: 20px;
- height: 500px;
- margin-right: 90px;
- float: right;
+  height: 500px;
+  margin-right: 90px;
+  float: right;
 }
 
-
-.hover-effect{
-  list-style-type:none;
-  margin:0;
-  padding:0;
+.hover-effect {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
- 
 }
 
-
-
-p{
-  display:flex;
-  color:white;
+p {
+  display: flex;
+  color: white;
 }
 
-p>span{
-  color:white;
+p > span {
+  color: white;
 }
 
+.li {
+  float: left;
 
-
-.li{
-  float:left;
-  
   margin-right: 80px;
-  
 }
-.li> a{
+.li > a {
   margin-top: 10px;
-  display:block;
-  color:rgb(10, 10, 10);
+  display: block;
+  color: rgb(10, 10, 10);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
 }
 
-.li> a:hover{
-  background-color: yellow;
-  
+.li > a:hover {
+  background-color: #f4ce14;
+  border-radius: 50px;
 }
 
-img{
+img {
   border-radius: 14px;
 }
 
-.linking{
- background-color: bisque;
+.linking {
+  background-color: bisque;
 }
 
 .App-link {
@@ -244,7 +180,11 @@ img{
   font-size: 25px;
   border-radius: 0.5rem;
 }
-
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
 
 @keyframes App-logo-spin {
   from {
@@ -255,7 +195,6 @@ img{
   }
 }
 
-
 .first-section-block {
   padding-right: 21px;
   padding-left: 52px;
@@ -265,14 +204,11 @@ img{
   right: 21px;
 }
 
-
-
 .second-section {
   margin-top: 80px;
   padding-right: 181px;
   padding-left: 212px;
-  font-family: 'Times New Roman', Times, serif;
- 
+  font-family: "Times New Roman", Times, serif;
 }
 
 .second-title {
@@ -304,11 +240,9 @@ img{
   column-gap: 50px;
   grid-template-columns: repeat(3, 1fr);
   padding-top: 50px;
- 
-
 }
 
-.special-body>p{
+.special-body > p {
   color: #000;
 }
 
@@ -345,10 +279,10 @@ img{
   background-color: #edefee;
 }
 
-.cake{
+.cake {
   background-size: cover;
   width: 300px;
-  height: 300px
+  height: 300px;
 }
 .special-footer div {
   cursor: pointer;
@@ -373,26 +307,25 @@ img{
 .third-section-block {
   padding-right: 21px;
   padding-left: 52px;
-  
 }
 
-.third-section-block > h1{
-color: yellow;
-padding-top: 30px;
-letter-spacing: 3px;
-font-size: 40px;
-font-family: 'Times New Roman', Times, serif;
-text-align: center;
+.third-section-block > h1 {
+  color: yellow;
+  padding-top: 30px;
+  letter-spacing: 3px;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
 
-.third-section{
+.third-section {
   background-color: #282c34;
 }
 
 .review {
   background-color: #edefee;
   margin-right: 30px;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
   width: 200px;
   height: 200px;
   overflow: hidden;
@@ -419,11 +352,9 @@ text-align: center;
 .reviewer {
   display: flex;
   gap: 8px;
-  
-
 }
 
-.reviewer>p{
+.reviewer > p {
   color: black;
   margin-top: 100px;
 }
@@ -440,44 +371,32 @@ text-align: center;
   font-size: 12px;
   text-align: center;
   color: black;
-  
 }
 
-.profile{
+.profile {
   border-radius: 50%;
   width: 80px;
   display: block;
   margin-left: 60px;
   margin-top: 10px;
-  
-  
-  
 }
 
-
-
-
 .forth-section {
- margin-top: 90px;
- font-size: 18px;
+  margin-top: 90px;
+  font-size: 18px;
   padding-right: 21px;
   padding-left: 70px;
   color: black;
- 
-  height: 500px;
-  font-family: 'Times New Roman', Times, serif;
-  
-  
 
+  height: 500px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-
-.forth-section>p{
+.forth-section > p {
   color: black;
 }
 
 .image1 {
- 
   float: right;
   width: 300px;
   height: 400px;
@@ -489,11 +408,11 @@ text-align: center;
 .image2 {
   float: right;
   border-radius: 0;
-    width: 300px;
-    height: 400px;
+  width: 300px;
+  height: 400px;
 }
 
-.pic{
+.pic {
   float: right;
   width: 500px;
   height: 600px;
@@ -522,7 +441,6 @@ text-align: center;
 
 .second-section {
   margin-top: 40px;
-  
 }
 .specials {
   column-gap: 24px;
@@ -535,8 +453,6 @@ text-align: center;
   width: 300px;
   margin: auto;
 }
-
-
 
 .forth-section h1 {
   margin-bottom: 8px;
@@ -551,7 +467,7 @@ text-align: center;
   width: 400px;
 }
 
-.form{
+.form {
   margin-top: 40px;
   margin-right: 40px;
   margin-left: 40px;
@@ -560,21 +476,18 @@ text-align: center;
   background-color: #282c34;
 
   width: 600px;
-  
 }
 input {
- width: 300px;
+  width: 300px;
   height: 2.5rem;
   padding: 0 1.25rem;
   border: 1px solid black;
   border-radius: 2px;
   margin: 0.625rem auto;
   transition: all 250ms;
-  
 }
 
-select{
-  
+select {
   width: 340px;
   height: 2.5rem;
   padding: 0 1.25rem;
@@ -590,13 +503,8 @@ label {
   color: yellow;
   display: block;
   margin-left: 40px;
-  
-  
-  
-
 }
-.submit{
-
+.submit {
   width: 250px;
   height: 60px;
   border: none;
@@ -606,25 +514,24 @@ label {
   font-size: 18px;
   border-radius: 40px;
   text-align: center;
-  box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
 
-
-.book{
+.book {
   margin-top: 90px;
   margin-left: 150px;
   margin-bottom: 0px;
 }
-.book>h1{
-margin-right: 200px;
-text-align: center;
-font-family: 'Times New Roman', Times, serif;
+.book > h1 {
+  margin-right: 200px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.book>p{
+.book > p {
   color: black;
   width: 400px;
   height: 500px;
